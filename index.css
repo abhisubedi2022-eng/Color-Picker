@@ -1,0 +1,33 @@
+body{
+  font-family: Arial, sans-serif;
+}
+.color-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.color-display{
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid hsl(0, 0%, 80%);
+  border-radius: 15px;
+  margin-bottom: 25px;
+}
+.color-display p{
+  font-size: 2rem;
+  text-align: center;
+  color: hsl(0, 0%, 70%);
+}
+label{
+  font-size: 1.5rem;
+  font-size: bold;
+  margin-bottom: 10px;
+}
+input[type="color"]{
+  height: 40px;
+  width: 75px;
+}
